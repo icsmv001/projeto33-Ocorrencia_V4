@@ -1,0 +1,4 @@
+CREATE DATABASE impacta;
+CREATE ROLE aluno WITH LOGIN PASSWORD 'java';
+
+GRANT ALL ON DATABASE impacta TO aluno;

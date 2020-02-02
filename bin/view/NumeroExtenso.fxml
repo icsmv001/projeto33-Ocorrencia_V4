@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.cursojava.projetofinal.controller.NumeroExtensoController">
+   <center>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Número:" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+            <TextField fx:id="txtNumero" layoutX="14.0" layoutY="35.0" onKeyReleased="#numeroOnKeyReleased" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+            <TextArea fx:id="bpaneValorExtenco" editable="false" layoutX="10.0" layoutY="10.0" wrapText="true" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="73.0" />
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <AnchorPane>
+         <children>
+            <Label BorderPane.alignment="CENTER" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
